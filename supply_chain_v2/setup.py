@@ -8,7 +8,7 @@ setup(
         'streamlit==1.25.0',
         'pandas==1.5.3',
         'plotly==5.13.0',
-        'SQLAlchemy==1.4.41',
+        'SQLAlchemy==1.4.46',
         'psycopg2-binary==2.9.5',
         'python-dotenv==0.21.0',
         'openpyxl==3.0.10',
