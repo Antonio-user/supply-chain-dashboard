@@ -1,0 +1,28 @@
+{
+  "environment": [
+    {
+      "name": "PYTHON_VERSION",
+      "value": "3.9.16"
+    },
+    {
+      "name": "STREAMLIT_SERVER_HEADLESS",
+      "value": "true"
+    },
+    {
+      "name": "STREAMLIT_SERVER_RUN_ON_SAVE",
+      "value": "true"
+    },
+    {
+      "name": "STREAMLIT_SERVER_PORT",
+      "value": "$PORT"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "scripts": {
+    "postdeploy": "pip install -r requirements.txt"
+  }
+}
