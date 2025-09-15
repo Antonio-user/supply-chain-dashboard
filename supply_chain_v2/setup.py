@@ -1,0 +1,20 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="supply_chain_dashboard",
+    version="1.0.0",
+    packages=find_packages(),
+    install_requires=[
+        'streamlit==1.25.0',
+        'pandas==1.5.3',
+        'plotly==5.13.0',
+        'SQLAlchemy==1.4.41',
+        'psycopg2-binary==2.9.5',
+        'python-dotenv==0.21.0',
+        'openpyxl==3.0.10',
+        'scikit-learn==1.2.0',
+        'numpy==1.23.5',
+        'protobuf<4.0.0',
+    ],
+    python_requires='>=3.9,<3.10',
+)
